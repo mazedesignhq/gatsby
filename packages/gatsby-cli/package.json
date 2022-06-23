@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-cli",
+  "name": "@mazeapp/gatsby-cli",
   "description": "Gatsby command-line interface for creating new sites and running Gatsby commands",
-  "version": "2.19.3",
+  "version": "2.19.3-fix.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "bin": {
     "gatsby": "cli.js"

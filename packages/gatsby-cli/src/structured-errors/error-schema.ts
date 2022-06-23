@@ -4,6 +4,7 @@ import { ILocationPosition, IStructuredError } from "./types"
 export const Position: Joi.ObjectSchema<ILocationPosition> = Joi.object().keys({
   line: Joi.number(),
   column: Joi.number(),
+  index: Joi.number(),
 })
 
 export const errorSchema: Joi.ObjectSchema<IStructuredError> = Joi.object().keys(
